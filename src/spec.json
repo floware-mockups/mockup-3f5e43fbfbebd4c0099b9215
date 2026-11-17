@@ -1,0 +1,368 @@
+{
+  "title": "Gestione corsi di formazione interna",
+  "description": "Catalogo dei corsi con docenti, calendario e disponibilità dei posti. Le tabelle sono filtrabili per titolo, docente e stato.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dei corsi disponibili e delle prossime sessioni.",
+      "metrics": [
+        {
+          "label": "Corsi a catalogo",
+          "value": "12"
+        },
+        {
+          "label": "Prossimi corsi",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "74"
+        },
+        {
+          "label": "Posti occupati",
+          "value": "96"
+        }
+      ],
+      "columns": [
+        "Titolo",
+        "Docente",
+        "Organizzazione",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara per i servizi",
+          "Lumo Riva",
+          "Officina Nubi",
+          "12/06/2026",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Vela Dori",
+          "Atelier Quarzo",
+          "19/06/2026",
+          "5",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzare il lavoro in gruppo",
+          "Nubi Sera",
+          "Studio Miralume",
+          "25/06/2026",
+          "0",
+          "Completo"
+        ],
+        [
+          "Presentazioni essenziali",
+          "Timo Lari",
+          "Bottega Lume",
+          "03/07/2026",
+          "11",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione delle priorità",
+          "Eli Varo",
+          "Compagnia Vetrina",
+          "10/07/2026",
+          "7",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra i corsi per titolo, docente, organizzazione e stato. Le colonne possono essere usate come filtri.",
+      "metrics": [
+        {
+          "label": "Corsi elencati",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni aperte",
+          "value": "9"
+        },
+        {
+          "label": "Completi",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Titolo",
+        "Docente",
+        "Organizzazione",
+        "Data",
+        "Ora",
+        "Durata",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara per i servizi",
+          "Lumo Riva",
+          "Officina Nubi",
+          "12/06/2026",
+          "09:30",
+          "3 ore",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Vela Dori",
+          "Atelier Quarzo",
+          "19/06/2026",
+          "10:00",
+          "2 ore",
+          "5",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzare il lavoro in gruppo",
+          "Nubi Sera",
+          "Studio Miralume",
+          "25/06/2026",
+          "09:00",
+          "4 ore",
+          "0",
+          "Completo"
+        ],
+        [
+          "Presentazioni essenziali",
+          "Timo Lari",
+          "Bottega Lume",
+          "03/07/2026",
+          "14:00",
+          "2 ore",
+          "11",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione delle priorità",
+          "Eli Varo",
+          "Compagnia Vetrina",
+          "10/07/2026",
+          "09:30",
+          "3 ore",
+          "7",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Accoglienza e orientamento",
+          "Mira Vela",
+          "Officina Nubi",
+          "17/07/2026",
+          "10:00",
+          "3 ore",
+          "9",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Progettare incontri efficaci",
+          "Rilo Tesa",
+          "Atelier Quarzo",
+          "24/07/2026",
+          "09:00",
+          "4 ore",
+          "0",
+          "Completo"
+        ],
+        [
+          "Archiviazione ordinata",
+          "Sela Lumo",
+          "Studio Miralume",
+          "31/07/2026",
+          "14:30",
+          "2 ore",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborare tra attività",
+          "Daro Nubi",
+          "Bottega Lume",
+          "07/08/2026",
+          "09:30",
+          "3 ore",
+          "10",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Comunicazione in riunione",
+          "Vena Rilo",
+          "Compagnia Vetrina",
+          "14/08/2026",
+          "10:00",
+          "2 ore",
+          "0",
+          "Completo"
+        ],
+        [
+          "Uso consapevole dei dati",
+          "Tali Miro",
+          "Officina Nubi",
+          "21/08/2026",
+          "09:00",
+          "3 ore",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Pianificare attività ricorrenti",
+          "Lira Sovo",
+          "Atelier Quarzo",
+          "28/08/2026",
+          "14:00",
+          "2 ore",
+          "10",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Titolo",
+        "Docente",
+        "Organizzazione",
+        "Data",
+        "Ora",
+        "Durata",
+        "Posti disponibili",
+        "Stato"
+      ]
+    },
+    {
+      "id": "calendario",
+      "title": "Calendario",
+      "description": "Prossime sessioni ordinate per data, con capienza residua e docente.",
+      "metrics": [
+        {
+          "label": "Sessioni in calendario",
+          "value": "12"
+        },
+        {
+          "label": "Sessioni questo mese",
+          "value": "3"
+        },
+        {
+          "label": "Posti ancora liberi",
+          "value": "74"
+        }
+      ],
+      "columns": [
+        "Titolo",
+        "Docente",
+        "Data",
+        "Ora",
+        "Durata",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara per i servizi",
+          "Lumo Riva",
+          "12/06/2026",
+          "09:30",
+          "3 ore",
+          "8"
+        ],
+        [
+          "Strumenti digitali quotidiani",
+          "Vela Dori",
+          "19/06/2026",
+          "10:00",
+          "2 ore",
+          "5"
+        ],
+        [
+          "Organizzare il lavoro in gruppo",
+          "Nubi Sera",
+          "25/06/2026",
+          "09:00",
+          "4 ore",
+          "0"
+        ],
+        [
+          "Presentazioni essenziali",
+          "Timo Lari",
+          "03/07/2026",
+          "14:00",
+          "2 ore",
+          "11"
+        ],
+        [
+          "Gestione delle priorità",
+          "Eli Varo",
+          "10/07/2026",
+          "09:30",
+          "3 ore",
+          "7"
+        ],
+        [
+          "Accoglienza e orientamento",
+          "Mira Vela",
+          "17/07/2026",
+          "10:00",
+          "3 ore",
+          "9"
+        ],
+        [
+          "Progettare incontri efficaci",
+          "Rilo Tesa",
+          "24/07/2026",
+          "09:00",
+          "4 ore",
+          "0"
+        ],
+        [
+          "Archiviazione ordinata",
+          "Sela Lumo",
+          "31/07/2026",
+          "14:30",
+          "2 ore",
+          "6"
+        ],
+        [
+          "Collaborare tra attività",
+          "Daro Nubi",
+          "07/08/2026",
+          "09:30",
+          "3 ore",
+          "10"
+        ],
+        [
+          "Comunicazione in riunione",
+          "Vena Rilo",
+          "14/08/2026",
+          "10:00",
+          "2 ore",
+          "0"
+        ],
+        [
+          "Uso consapevole dei dati",
+          "Tali Miro",
+          "21/08/2026",
+          "09:00",
+          "3 ore",
+          "8"
+        ],
+        [
+          "Pianificare attività ricorrenti",
+          "Lira Sovo",
+          "28/08/2026",
+          "14:00",
+          "2 ore",
+          "10"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
